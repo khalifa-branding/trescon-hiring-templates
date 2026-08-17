@@ -3,7 +3,7 @@
 /* --- Brand Identity Tokens --- */
 :root {
   /* Colors */
-  --color-teal: #06B6D4; /* Brand Cyan */
+  --color-teal: #10B981; /* Official Trescon Brand Emerald Green */
   --color-dark-teal: #0A1826; /* Deep Trescon Midnight Navy */
   --color-dark-teal-gradient: linear-gradient(135deg, #0A1826 0%, #152A3F 100%);
   --color-slate-grey: #464D53;
@@ -1259,27 +1259,27 @@ select.form-input option,
   border-color: rgba(255, 255, 255, 0.15);
 }
 
-/* Theme Metadata Badges Overrides */
+/* Theme Metadata Badges Overrides (Official Trescon Brand Palette) */
 .theme-emerald-glow .info-badge:not(.badge-highlight) {
-  border-color: rgba(6, 182, 212, 0.5); /* Stronger border contrast */
-  color: #06B6D4; /* Cyan */
-  background: rgba(6, 182, 212, 0.22); /* Stronger background opacity */
+  border-color: rgba(255, 255, 255, 0.22);
+  color: #F8FAFC; /* Clean Off-White */
+  background: rgba(255, 255, 255, 0.08);
 }
 .theme-emerald-glow .info-badge.badge-highlight {
-  border-color: rgba(163, 230, 53, 0.5); /* Stronger border contrast */
-  color: var(--color-lime); /* Neon Lime */
-  background: rgba(163, 230, 53, 0.22); /* Stronger background opacity */
+  border-color: rgba(163, 230, 53, 0.45);
+  color: var(--color-lime); /* Trescon Electric Lime (#A3E635) */
+  background: rgba(163, 230, 53, 0.16);
 }
 
 .theme-midnight-modern .info-badge:not(.badge-highlight) {
-  border-color: rgba(163, 230, 53, 0.5); /* Stronger border contrast */
-  color: #A3E635; /* Neon Lime */
-  background: rgba(163, 230, 53, 0.22); /* Stronger background opacity */
+  border-color: rgba(255, 255, 255, 0.22);
+  color: #F8FAFC; /* Clean Off-White */
+  background: rgba(255, 255, 255, 0.08);
 }
 .theme-midnight-modern .info-badge.badge-highlight {
-  border-color: rgba(6, 182, 212, 0.5); /* Stronger border contrast */
-  color: var(--color-teal); /* Cyan */
-  background: rgba(6, 182, 212, 0.22); /* Stronger background opacity */
+  border-color: rgba(163, 230, 53, 0.45);
+  color: var(--color-lime); /* Trescon Electric Lime (#A3E635) */
+  background: rgba(163, 230, 53, 0.16);
 }
 
 .theme-corporate-light .info-badge {
